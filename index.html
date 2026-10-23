@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undrxposur | Portrait, Wedding &amp; Editorial Photography</title>
+  <meta name="description" content="Undrxposur: colourful, classic portrait, wedding, family, and editorial photography. Book a session and reserve your date with a deposit.">
+  <!-- REDESIGN CONCEPT for Undrxposur. Booking, payment, and forms are visual only. -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&amp;family=Poppins:wght@400;500;600;700&amp;display=swap">
+
+  <link rel="stylesheet" href="css/vendor/lenis.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="javascript/vendor/lenis.min.js" defer></script>
+  <script src="javascript/smooth-scroll.js" defer></script>
+  <script src="javascript/global.js" defer></script>
+  <script src="javascript/script.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================== HEADER ============================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top" aria-label="Undrxposur, home">
+        <picture class="logo__dark">
+          <source type="image/webp" srcset="images/brand/undrxposur-wordmark-ink.webp">
+          <img src="images/brand/undrxposur-wordmark-ink.png" alt="" width="900" height="191">
+        </picture>
+        <picture class="logo__light">
+          <source type="image/webp" srcset="images/brand/undrxposur-wordmark-white.webp">
+          <img src="images/brand/undrxposur-wordmark-white.png" alt="" width="900" height="191">
+        </picture>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary" data-lenis-prevent>
+        <ul class="nav__list">
+          <li style="--i:0"><a class="nav__link" href="#work"><span class="nav__num" aria-hidden="true">01</span><span class="nav__label">Work</span></a></li>
+          <li style="--i:1"><a class="nav__link" href="#services"><span class="nav__num" aria-hidden="true">02</span><span class="nav__label">Services</span></a></li>
+          <li style="--i:2"><a class="nav__link" href="#book"><span class="nav__num" aria-hidden="true">03</span><span class="nav__label">Book</span></a></li>
+          <li style="--i:3"><a class="nav__link" href="#about"><span class="nav__num" aria-hidden="true">04</span><span class="nav__label">About</span></a></li>
+          <li style="--i:4"><a class="nav__link" href="#contact"><span class="nav__num" aria-hidden="true">05</span><span class="nav__label">Contact</span></a></li>
+        </ul>
+        <a class="btn btn--dark nav__book" href="#book">Book a Session</a>
+        <div class="nav__foot">
+          <p class="nav__foot-label">Follow along</p>
+          <div class="nav__social">
+            <a href="https://www.instagram.com/undrxposur/" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="https://www.tiktok.com/@skrtkjayy" target="_blank" rel="noopener" aria-label="TikTok (opens in a new tab)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.6V9a7.4 7.4 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.2-1.5z"/></svg></a>
+            <a href="mailto:hello@undrxposur.com" aria-label="Email hello@undrxposur.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><polyline points="3.5 6.5 12 13 20.5 6.5"/></svg></a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header__tools">
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================== HERO ==============================
+         Three overlapping tilted photos; hover/focus/tap brings one forward.
+         PLACEHOLDER: swap each img for her photos. -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow">Portraits · Weddings · Families · Editorial</p>
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__line"><span>Your story,</span></span>
+            <span class="hero__line"><span><em>beautifully</em> <span class="hl">exposed.</span></span></span>
+          </h1>
+          <p class="hero__text">Colourful, classic photography for the moments that matter, from City Hall vows to the portraits you will actually want to post.</p>
+          <div class="hero__actions">
+            <a class="btn btn--dark btn--arrow" href="#book">Book a Session <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg></a>
+            <a class="btn btn--outline" href="#work">View the Work</a>
+          </div>
+          <ul class="hero__stats" aria-label="At a glance">
+            <li><strong>5.0</strong><span>Client rating</span></li>
+            <li><strong>48 hr</strong><span>Sneak peeks</span></li>
+            <li><strong>$50</strong><span>Sessions from</span></li>
+          </ul>
+        </div>
+
+        <!-- 3D photo ring: every portfolio photo on a slowly turning cylinder.
+             Tilts toward the pointer; drag/swipe to spin; pause button (WCAG 2.2.2).
+             Reduced motion: a still fan of photos. Decorative (the portfolio below has the alt text). -->
+        <div class="ring-stage" id="ring-stage" aria-label="Photo showcase" role="region">
+          <div class="ring-scene">
+            <ul class="ring" id="ring" style="--n:16" aria-hidden="true">
+            <li class="ring__card" style="--i:0">
+              <picture><source type="image/webp" srcset="images/gallery/portrait-golden-hour-480.webp"><img src="images/gallery/portrait-golden-hour-480.jpg" alt="" width="480" height="725" fetchpriority="high" decoding="async"></picture>
+              <span class="ring__tag">Portraits</span>
+            </li>
+            <li class="ring__card" style="--i:1">
+              <picture><source type="image/webp" srcset="images/gallery/wedding-bridal-staircase-480.webp"><img src="images/gallery/wedding-bridal-staircase-480.jpg" alt="" width="480" height="657" fetchpriority="high" decoding="async"></picture>
+              <span class="ring__tag">Weddings</span>
+            </li>
+            <li class="ring__card" style="--i:2">
+              <picture><source type="image/webp" srcset="images/gallery/editorial-green-mirror-480.webp"><img src="images/gallery/editorial-green-mirror-480.jpg" alt="" width="480" height="721" fetchpriority="high" decoding="async"></picture>
+              <span class="ring__tag">Editorial</span>
+            </li>
+            <li class="ring__card" style="--i:3">
+              <picture><source type="image/webp" srcset="images/gallery/family-first-kisses-480.webp"><img src="images/gallery/family-first-kisses-480.jpg" alt="" width="480" height="595" fetchpriority="high" decoding="async"></picture>
+              <span class="ring__tag">Families</span>
+            </li>
+            <li class="ring__card" style="--i:4">
+              <picture><source type="image/webp" srcset="images/gallery/portrait-as-cap-480.webp"><img src="images/gallery/portrait-as-cap-480.jpg" alt="" width="480" height="728" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Portraits</span>
+            </li>
+            <li class="ring__card" style="--i:5">
+              <picture><source type="image/webp" srcset="images/gallery/wedding-black-white-walk-480.webp"><img src="images/gallery/wedding-black-white-walk-480.jpg" alt="" width="480" height="820" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Weddings</span>
+            </li>
+            <li class="ring__card" style="--i:6">
+              <picture><source type="image/webp" srcset="images/gallery/editorial-yellow-parasol-480.webp"><img src="images/gallery/editorial-yellow-parasol-480.jpg" alt="" width="480" height="721" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Editorial</span>
+            </li>
+            <li class="ring__card" style="--i:7">
+              <picture><source type="image/webp" srcset="images/gallery/wedding-black-white-kiss-480.webp"><img src="images/gallery/wedding-black-white-kiss-480.jpg" alt="" width="480" height="728" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Couples</span>
+            </li>
+            <li class="ring__card" style="--i:8">
+              <picture><source type="image/webp" srcset="images/gallery/portrait-rooftop-chair-480.webp"><img src="images/gallery/portrait-rooftop-chair-480.jpg" alt="" width="480" height="730" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Portraits</span>
+            </li>
+            <li class="ring__card" style="--i:9">
+              <picture><source type="image/webp" srcset="images/gallery/editorial-chartreuse-knit-480.webp"><img src="images/gallery/editorial-chartreuse-knit-480.jpg" alt="" width="480" height="719" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Editorial</span>
+            </li>
+            <li class="ring__card" style="--i:10">
+              <picture><source type="image/webp" srcset="images/gallery/wedding-city-hall-couple-480.webp"><img src="images/gallery/wedding-city-hall-couple-480.jpg" alt="" width="480" height="724" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Weddings</span>
+            </li>
+            <li class="ring__card" style="--i:11">
+              <picture><source type="image/webp" srcset="images/gallery/portrait-studio-stool-480.webp"><img src="images/gallery/portrait-studio-stool-480.jpg" alt="" width="480" height="716" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Portraits</span>
+            </li>
+            <li class="ring__card" style="--i:12">
+              <picture><source type="image/webp" srcset="images/gallery/editorial-golden-locs-480.webp"><img src="images/gallery/editorial-golden-locs-480.jpg" alt="" width="480" height="722" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Editorial</span>
+            </li>
+            <li class="ring__card" style="--i:13">
+              <picture><source type="image/webp" srcset="images/gallery/portrait-green-cap-480.webp"><img src="images/gallery/portrait-green-cap-480.jpg" alt="" width="480" height="726" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Portraits</span>
+            </li>
+            <li class="ring__card" style="--i:14">
+              <picture><source type="image/webp" srcset="images/gallery/editorial-sunglasses-sky-480.webp"><img src="images/gallery/editorial-sunglasses-sky-480.jpg" alt="" width="480" height="716" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Editorial</span>
+            </li>
+            <li class="ring__card" style="--i:15">
+              <picture><source type="image/webp" srcset="images/gallery/portrait-stone-wall-480.webp"><img src="images/gallery/portrait-stone-wall-480.jpg" alt="" width="480" height="721" loading="lazy" decoding="async"></picture>
+              <span class="ring__tag">Portraits</span>
+            </li>
+            </ul>
+          </div>
+          <div class="ring-glow" aria-hidden="true"></div>
+          <!-- Review ticker under the ring (sample quotes: replace with her real reviews).
+               Cycles with the ring; the same Pause button stops it. -->
+          <figure class="ring-review" id="ring-review">
+            <div class="ring-review__stars" role="img" aria-label="Rated 5 out of 5 stars"><span aria-hidden="true">★★★★★</span><strong>5.0</strong></div>
+            <blockquote class="ring-review__quote"><p id="ring-review-text">&ldquo;She made me feel like the main character the entire shoot.&rdquo;</p></blockquote>
+            <figcaption class="ring-review__by" id="ring-review-by">Devon R. · The Signature</figcaption>
+            <ul class="ring-review__dots" aria-hidden="true"><li class="is-on"></li><li></li><li></li></ul>
+          </figure>
+          <button class="ring-pause" id="ring-pause" type="button" aria-pressed="false">
+            <span class="ring-pause__icon" aria-hidden="true"></span><span class="ring-pause__label">Pause</span>
+          </button>
+          <p class="ring-hint" aria-hidden="true">Drag to explore</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category ribbon -->
+    <div class="ribbon" aria-hidden="true">
+      <div class="ribbon__track">
+        <span>Portraits</span><i></i><span>Weddings</span><i></i><span>Couples</span><i></i><span>Families</span><i></i><span>Editorial</span><i></i><span>Brands</span><i></i>
+        <span>Portraits</span><i></i><span>Weddings</span><i></i><span>Couples</span><i></i><span>Families</span><i></i><span>Editorial</span><i></i><span>Brands</span><i></i>
+        <span>Portraits</span><i></i><span>Weddings</span><i></i><span>Couples</span><i></i><span>Families</span><i></i><span>Editorial</span><i></i><span>Brands</span><i></i>
+        <span>Portraits</span><i></i><span>Weddings</span><i></i><span>Couples</span><i></i><span>Families</span><i></i><span>Editorial</span><i></i><span>Brands</span><i></i>
+        <span>Portraits</span><i></i><span>Weddings</span><i></i><span>Couples</span><i></i><span>Families</span><i></i><span>Editorial</span><i></i><span>Brands</span><i></i>
+        <span>Portraits</span><i></i><span>Weddings</span><i></i><span>Couples</span><i></i><span>Families</span><i></i><span>Editorial</span><i></i><span>Brands</span><i></i>
+        <span>Portraits</span><i></i><span>Weddings</span><i></i><span>Couples</span><i></i><span>Families</span><i></i><span>Editorial</span><i></i><span>Brands</span><i></i>
+        <span>Portraits</span><i></i><span>Weddings</span><i></i><span>Couples</span><i></i><span>Families</span><i></i><span>Editorial</span><i></i><span>Brands</span><i></i>
+      </div>
+    </div>
+
+    <!-- ============================== WORK ============================== -->
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">The Portfolio</p>
+            <h2 class="section-title" id="work-title">A little bit of <em>everything,</em><br>all of it <span class="hl">intentional.</span></h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filter the portfolio">
+            <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter" type="button" data-filter="portrait" aria-pressed="false">Portraits</button>
+            <button class="filter" type="button" data-filter="wedding" aria-pressed="false">Weddings</button>
+            <button class="filter" type="button" data-filter="couple" aria-pressed="false">Couples</button>
+            <button class="filter" type="button" data-filter="family" aria-pressed="false">Families</button>
+            <button class="filter" type="button" data-filter="editorial" aria-pressed="false">Editorial</button>
+          </div>
+        </div>
+
+        <ul class="works" id="works">
+          <li class="work" data-cat="portrait">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Golden Hour"><picture><source type="image/webp" srcset="images/gallery/portrait-golden-hour-480.webp 480w, images/gallery/portrait-golden-hour.webp 760w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/portrait-golden-hour.jpg" srcset="images/gallery/portrait-golden-hour-480.jpg 480w, images/gallery/portrait-golden-hour.jpg 760w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Golden Hour: rooftop portrait in warm evening light" width="760" height="1148" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Golden Hour</span><span class="work__place">Portraits</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="wedding">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: The Walk"><picture><source type="image/webp" srcset="images/gallery/wedding-black-white-walk-480.webp 480w, images/gallery/wedding-black-white-walk.webp 678w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/wedding-black-white-walk.jpg" srcset="images/gallery/wedding-black-white-walk-480.jpg 480w, images/gallery/wedding-black-white-walk.jpg 678w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="The Walk: newlyweds walking out, in black and white" width="678" height="1158" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">The Walk</span><span class="work__place">Weddings</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="editorial">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Through the Mirror"><picture><source type="image/webp" srcset="images/gallery/editorial-green-mirror-480.webp 480w, images/gallery/editorial-green-mirror.webp 770w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/editorial-green-mirror.jpg" srcset="images/gallery/editorial-green-mirror-480.jpg 480w, images/gallery/editorial-green-mirror.jpg 770w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Through the Mirror: editorial framed by a green wavy mirror" width="770" height="1156" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Through the Mirror</span><span class="work__place">Editorial</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="wedding">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: The Grand Staircase"><picture><source type="image/webp" srcset="images/gallery/wedding-bridal-staircase-480.webp 480w, images/gallery/wedding-bridal-staircase.webp 860w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/wedding-bridal-staircase.jpg" srcset="images/gallery/wedding-bridal-staircase-480.jpg 480w, images/gallery/wedding-bridal-staircase.jpg 860w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="The Grand Staircase: bridal portrait on the city hall staircase" width="860" height="1178" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">The Grand Staircase</span><span class="work__place">Weddings</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="family">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: First Kisses"><picture><source type="image/webp" srcset="images/gallery/family-first-kisses-480.webp 480w, images/gallery/family-first-kisses.webp 944w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/family-first-kisses.jpg" srcset="images/gallery/family-first-kisses-480.jpg 480w, images/gallery/family-first-kisses.jpg 944w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="First Kisses: parents kissing their baby, wedding day" width="944" height="1170" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">First Kisses</span><span class="work__place">Families</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="editorial">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Yellow Parasol"><picture><source type="image/webp" srcset="images/gallery/editorial-yellow-parasol-480.webp 480w, images/gallery/editorial-yellow-parasol.webp 764w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/editorial-yellow-parasol.jpg" srcset="images/gallery/editorial-yellow-parasol-480.jpg 480w, images/gallery/editorial-yellow-parasol.jpg 764w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Yellow Parasol: fashion editorial with a yellow parasol" width="764" height="1148" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Yellow Parasol</span><span class="work__place">Editorial</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="couple">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Forehead Kiss"><picture><source type="image/webp" srcset="images/gallery/wedding-black-white-kiss-480.webp 480w, images/gallery/wedding-black-white-kiss.webp 774w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/wedding-black-white-kiss.jpg" srcset="images/gallery/wedding-black-white-kiss-480.jpg 480w, images/gallery/wedding-black-white-kiss.jpg 774w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Forehead Kiss: couple portrait in black and white" width="774" height="1174" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Forehead Kiss</span><span class="work__place">Couples</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="portrait">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Rooftop"><picture><source type="image/webp" srcset="images/gallery/portrait-rooftop-chair-480.webp 480w, images/gallery/portrait-rooftop-chair.webp 768w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/portrait-rooftop-chair.jpg" srcset="images/gallery/portrait-rooftop-chair-480.jpg 480w, images/gallery/portrait-rooftop-chair.jpg 768w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Rooftop: seated portrait against a clear blue sky" width="768" height="1168" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Rooftop</span><span class="work__place">Portraits</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="portrait">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: A’s Cap"><picture><source type="image/webp" srcset="images/gallery/portrait-as-cap-480.webp 480w, images/gallery/portrait-as-cap.webp 774w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/portrait-as-cap.jpg" srcset="images/gallery/portrait-as-cap-480.jpg 480w, images/gallery/portrait-as-cap.jpg 774w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="A’s Cap: studio portrait with a green ball cap" width="774" height="1174" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">A’s Cap</span><span class="work__place">Portraits</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="wedding">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: City Hall"><picture><source type="image/webp" srcset="images/gallery/wedding-city-hall-couple-480.webp 480w, images/gallery/wedding-city-hall-couple.webp 772w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/wedding-city-hall-couple.jpg" srcset="images/gallery/wedding-city-hall-couple-480.jpg 480w, images/gallery/wedding-city-hall-couple.jpg 772w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="City Hall: couple at city hall after the ceremony" width="772" height="1164" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">City Hall</span><span class="work__place">Weddings</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="portrait">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Studio Stool"><picture><source type="image/webp" srcset="images/gallery/portrait-studio-stool-480.webp 480w, images/gallery/portrait-studio-stool.webp 780w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/portrait-studio-stool.jpg" srcset="images/gallery/portrait-studio-stool-480.jpg 480w, images/gallery/portrait-studio-stool.jpg 780w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Studio Stool: clean full-length studio portrait" width="780" height="1164" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Studio Stool</span><span class="work__place">Portraits</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="editorial">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Chartreuse"><picture><source type="image/webp" srcset="images/gallery/editorial-chartreuse-knit-480.webp 480w, images/gallery/editorial-chartreuse-knit.webp 780w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/editorial-chartreuse-knit.jpg" srcset="images/gallery/editorial-chartreuse-knit-480.jpg 480w, images/gallery/editorial-chartreuse-knit.jpg 780w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Chartreuse: editorial portrait in a chartreuse knit" width="780" height="1168" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Chartreuse</span><span class="work__place">Editorial</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="editorial">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Golden Locs"><picture><source type="image/webp" srcset="images/gallery/editorial-golden-locs-480.webp 480w, images/gallery/editorial-golden-locs.webp 770w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/editorial-golden-locs.jpg" srcset="images/gallery/editorial-golden-locs-480.jpg 480w, images/gallery/editorial-golden-locs.jpg 770w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Golden Locs: profile portrait in a sunlit field" width="770" height="1158" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Golden Locs</span><span class="work__place">Editorial</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="portrait">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Green Cap"><picture><source type="image/webp" srcset="images/gallery/portrait-green-cap-480.webp 480w, images/gallery/portrait-green-cap.webp 772w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/portrait-green-cap.jpg" srcset="images/gallery/portrait-green-cap-480.jpg 480w, images/gallery/portrait-green-cap.jpg 772w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Green Cap: close portrait in soft studio light" width="772" height="1168" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Green Cap</span><span class="work__place">Portraits</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="editorial">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Blue Sky"><picture><source type="image/webp" srcset="images/gallery/editorial-sunglasses-sky-480.webp 480w, images/gallery/editorial-sunglasses-sky.webp 780w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/editorial-sunglasses-sky.jpg" srcset="images/gallery/editorial-sunglasses-sky-480.jpg 480w, images/gallery/editorial-sunglasses-sky.jpg 780w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Blue Sky: editorial portrait with sunglasses and sky" width="780" height="1164" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Blue Sky</span><span class="work__place">Editorial</span></figcaption>
+            </figure>
+          </li>
+          <li class="work" data-cat="portrait">
+            <figure class="work__figure">
+              <button class="work__open" type="button" aria-label="View larger: Stone Wall"><picture><source type="image/webp" srcset="images/gallery/portrait-stone-wall-480.webp 480w, images/gallery/portrait-stone-wall.webp 778w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"><img src="images/gallery/portrait-stone-wall.jpg" srcset="images/gallery/portrait-stone-wall-480.jpg 480w, images/gallery/portrait-stone-wall.jpg 778w" sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw" alt="Stone Wall: moody portrait against a pale wall" width="778" height="1168" loading="lazy" decoding="async"></picture><span class="work__zoom" aria-hidden="true"></span></button>
+              <figcaption class="work__cap"><span class="work__title">Stone Wall</span><span class="work__place">Portraits</span></figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================== SERVICES ============================== -->
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="particles" aria-hidden="true"></div>
+      <div class="container">
+        <!-- Pinned, scroll-driven intro: the heading holds centre-screen while each
+             word fades in ("Sessions" → "made" → "for" → "you."), then the lime
+             highlight swipes in and the lede appears; then the cards scroll up.
+             script.js sets --p (0→1); reduced motion shows it all at once. -->
+        <div class="svc-intro" id="svc-intro">
+          <div class="svc-intro__pin">
+            <!-- Scroll-driven camera (replaces the aperture rings): drifts, turns and focuses as you scroll. Decorative. -->
+            <div class="bg-cam bg-cam--right" aria-hidden="true"><picture><source type="image/webp" srcset="images/about/camera-tele-640.webp 640w, images/about/camera-tele.webp 1200w" sizes="(min-width: 1024px) 46vw, 90vw"><img src="images/about/camera-tele.png" srcset="images/about/camera-tele-640.png 640w, images/about/camera-tele.png 1200w" sizes="(min-width: 1024px) 46vw, 90vw" alt="" width="1200" height="757" loading="lazy" decoding="async"></picture></div>
+            <p class="eyebrow svc-intro__eyebrow">Services &amp; Pricing</p>
+            <h2 class="svc-intro__title" id="services-title">
+              <span class="svc-word" style="--w:0">Sessions</span>
+              <span class="svc-word" style="--w:1">made</span>
+              <span class="svc-intro__hl"><em class="svc-word" style="--w:2">for</em> <em class="svc-word" style="--w:3">you.</em></span>
+            </h2>
+            <p class="section-lede svc-intro__lede">Three ways to get in front of the camera. Every session includes a guided shoot and a private online gallery, and a 50% deposit reserves your date.</p>
+            <span class="svc-intro__cue" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="svc-grid">
+          <article class="svc">
+            <div class="svc__media"><picture><source type="image/webp" srcset="images/gallery/portrait-stone-wall-480.webp 480w, images/gallery/portrait-stone-wall.webp 780w" sizes="(min-width: 1024px) 26rem, (min-width: 640px) 45vw, 92vw"><img src="images/gallery/portrait-stone-wall.jpg" srcset="images/gallery/portrait-stone-wall-480.jpg 480w, images/gallery/portrait-stone-wall.jpg 780w" sizes="(min-width: 1024px) 26rem, (min-width: 640px) 45vw, 92vw" alt="" width="780" height="1168" loading="lazy" decoding="async"></picture><span class="svc__price"><small>Only</small><b>$50</b></span><span class="svc__time">30–45 minutes</span></div>
+            <div class="svc__body">
+              <p class="svc__num">01 <span>Session</span></p>
+              <h3 class="svc__title">The Mini</h3>
+              <p class="svc__desc">A quick and easy session for fresh portraits and a little camera time.</p>
+              <p class="svc__inc">What’s included</p>
+              <ul class="svc__list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>1 outfit</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>1 location</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>5 edited photos</span></li></ul>
+              <a class="btn btn--outline btn--block" href="#book" data-session="The Mini">Book Mini</a>
+            </div>
+          </article>
+          <article class="svc svc--feature">
+            <div class="svc__media"><picture><source type="image/webp" srcset="images/gallery/portrait-studio-stool-480.webp 480w, images/gallery/portrait-studio-stool.webp 780w" sizes="(min-width: 1024px) 26rem, (min-width: 640px) 45vw, 92vw"><img src="images/gallery/portrait-studio-stool.jpg" srcset="images/gallery/portrait-studio-stool-480.jpg 480w, images/gallery/portrait-studio-stool.jpg 780w" sizes="(min-width: 1024px) 26rem, (min-width: 640px) 45vw, 92vw" alt="" width="780" height="1164" loading="lazy" decoding="async"></picture><span class="svc__price"><small>Only</small><b>$150</b></span><span class="svc__time">45–60 minutes</span></div>
+            <div class="svc__body">
+              <p class="svc__num">02 <span>Session</span></p>
+              <h3 class="svc__title">The Signature</h3>
+              <p class="svc__desc">More looks, more personality, and more room to express yourself.</p>
+              <p class="svc__inc">What’s included</p>
+              <ul class="svc__list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>2 outfits</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>1 location</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>10 edited photos</span></li></ul>
+              <a class="btn btn--lime btn--block" href="#book" data-session="The Signature">Book Signature</a>
+            </div>
+          </article>
+          <article class="svc">
+            <div class="svc__media"><picture><source type="image/webp" srcset="images/gallery/editorial-yellow-parasol-480.webp 480w, images/gallery/editorial-yellow-parasol.webp 764w" sizes="(min-width: 1024px) 26rem, (min-width: 640px) 45vw, 92vw"><img src="images/gallery/editorial-yellow-parasol.jpg" srcset="images/gallery/editorial-yellow-parasol-480.jpg 480w, images/gallery/editorial-yellow-parasol.jpg 764w" sizes="(min-width: 1024px) 26rem, (min-width: 640px) 45vw, 92vw" alt="" width="764" height="1148" loading="lazy" decoding="async"></picture><span class="svc__price"><small>From</small><b>$200<sup>+</sup></b></span><span class="svc__time">60–90 minutes</span></div>
+            <div class="svc__body">
+              <p class="svc__num">03 <span>Session</span></p>
+              <h3 class="svc__title">The Creative Experience</h3>
+              <p class="svc__desc">For the visionaries, concept creators, and outside-the-box thinkers. Let’s bring your ideas to life.</p>
+              <p class="svc__inc">What’s included</p>
+              <ul class="svc__list"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>3 outfits</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Up to 2 locations</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>15–20 edited photos</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Creative direction and concept planning</span></li></ul>
+              <a class="btn btn--outline btn--block" href="#book" data-session="The Creative Experience">Book Creative Experience</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== BOOKING (visual only) ==============================
+         Pick a session, a date and a time; the summary updates. Checkout is a mock. -->
+    <section class="booking" id="book" aria-labelledby="book-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Book Online</p>
+          <h2 class="section-title" id="book-title">Reserve your date <em>in minutes.</em></h2>
+          <p class="section-lede">Choose your session, pick a date and time, and secure it with a deposit. You will get a confirmation and a planning guide right away.</p>
+        </div>
+
+        <div class="booker">
+          <div class="booker__main">
+            <fieldset class="step">
+              <legend class="step__title"><span class="step__num">1</span>Choose a session</legend>
+              <div class="choices" id="session-choices">
+                <label class="choice"><input type="radio" name="session" value="The Mini" data-price="50" data-img="portrait-stone-wall" checked><span class="choice__media"><picture><source type="image/webp" srcset="images/gallery/portrait-stone-wall-480.webp"><img src="images/gallery/portrait-stone-wall-480.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></picture></span><span class="choice__body"><span class="choice__name">The Mini</span><span class="choice__meta">30–45 min</span><span class="choice__price">$50</span></span><span class="choice__check" aria-hidden="true"></span></label>
+                <label class="choice"><input type="radio" name="session" value="The Signature" data-price="150" data-img="portrait-studio-stool"><span class="choice__media"><picture><source type="image/webp" srcset="images/gallery/portrait-studio-stool-480.webp"><img src="images/gallery/portrait-studio-stool-480.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></picture></span><span class="choice__body"><span class="choice__name">The Signature</span><span class="choice__meta">45–60 min</span><span class="choice__price">$150</span></span><span class="choice__check" aria-hidden="true"></span></label>
+                <label class="choice"><input type="radio" name="session" value="The Creative Experience" data-price="200" data-img="editorial-yellow-parasol" data-plus="1"><span class="choice__media"><picture><source type="image/webp" srcset="images/gallery/editorial-yellow-parasol-480.webp"><img src="images/gallery/editorial-yellow-parasol-480.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></picture></span><span class="choice__body"><span class="choice__name">The Creative Experience</span><span class="choice__meta">60–90 min</span><span class="choice__price">from $200</span></span><span class="choice__check" aria-hidden="true"></span></label>
+              </div>
+            </fieldset>
+
+            <div class="booker__row">
+            <fieldset class="step step--date">
+              <legend class="step__title"><span class="step__num">2</span>Pick a date</legend>
+              <div class="cal">
+                <div class="cal__head">
+                  <button class="cal__nav" type="button" aria-label="Previous month" disabled>&lsaquo;</button>
+                  <p class="cal__month">November 2026</p>
+                  <button class="cal__nav" type="button" aria-label="Next month">&rsaquo;</button>
+                </div>
+                <div class="cal__grid" id="cal-grid" role="group" aria-label="Available dates in November 2026"></div>
+                <p class="cal__legend"><span><span class="dot dot--open"></span>Available</span><span><span class="dot dot--full"></span>Booked</span></p>
+              </div>
+            </fieldset>
+
+            <fieldset class="step step--time">
+              <legend class="step__title"><span class="step__num">3</span>Pick a time</legend>
+              <div class="times" id="times">
+                <label class="time"><input type="radio" name="time" value="9:00 AM"><span>9:00 AM</span></label>
+                <label class="time"><input type="radio" name="time" value="11:30 AM" checked><span>11:30 AM</span></label>
+                <label class="time"><input type="radio" name="time" value="2:00 PM"><span>2:00 PM</span></label>
+                <label class="time"><input type="radio" name="time" value="4:30 PM"><span>4:30 PM</span></label>
+                <label class="time"><input type="radio" name="time" value="Golden hour"><span>Golden hour <small>~6:15 PM</small></span></label>
+              </div>
+              <p class="times__note">All times Eastern. Golden hour shifts with the season.</p>
+            </fieldset>
+            </div>
+          </div>
+
+          <div class="summary" role="region" aria-labelledby="summary-title">
+            <div class="summary__media"><picture><source type="image/webp" srcset="images/gallery/portrait-stone-wall-480.webp" id="sum-src"><img src="images/gallery/portrait-stone-wall-480.jpg" alt="" width="480" height="600" id="sum-img"></picture>
+              <h3 class="summary__title" id="summary-title"><span>Your booking</span></h3>
+            </div>
+            <dl class="summary__list">
+              <div><dt>Session</dt><dd id="sum-session">The Mini</dd></div>
+              <div><dt>Date</dt><dd id="sum-date">Thu, Nov 12</dd></div>
+              <div><dt>Time</dt><dd id="sum-time">11:30 AM</dd></div>
+              <div><dt>Session total</dt><dd id="sum-total">$50</dd></div>
+            </dl>
+            <div class="summary__due"><span>Deposit due today (50%)</span><strong id="sum-deposit">$25</strong></div>
+            <p class="summary__note">Your deposit is applied to your session total. Remaining balance is due on the day.</p>
+            <div class="summary__tear" aria-hidden="true"></div>
+
+            <div class="pay">
+              <p class="pay__title">Pay deposit</p>
+              <div class="pay__methods" aria-hidden="true"><span>Card</span><span>Apple&nbsp;Pay</span><span>Klarna</span></div>
+              <label class="pay__field"><span class="visually-hidden">Card number</span><input type="text" placeholder="Card number" inputmode="numeric" autocomplete="off" disabled></label>
+              <div class="pay__row">
+                <label class="pay__field"><span class="visually-hidden">Expiry</span><input type="text" placeholder="MM / YY" autocomplete="off" disabled></label>
+                <label class="pay__field"><span class="visually-hidden">CVC</span><input type="text" placeholder="CVC" autocomplete="off" disabled></label>
+              </div>
+              <button class="btn btn--lime btn--block" type="button" id="reserve">Pay $25 &amp; Reserve</button>
+              <p class="pay__secure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure checkout · Demo only</p>
+              <p class="pay__status" id="reserve-status" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== ABOUT ============================== -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="container about__inner">
+        <div class="about__copy">
+          <p class="eyebrow">Meet the Photographer</p>
+          <h2 class="about__title" id="about-title">The Creative <em>Behind</em><br>the <span class="hl">Lens</span></h2>
+          <p class="about__hello">I&rsquo;m <strong>Kjayy!</strong></p>
+          <p class="about__tag"><em>Photographer.</em> <em>Creative menace.</em> <em>Storyteller.</em></p>
+          <p class="about__text">I&rsquo;m drawn to creative expression, stories that deserve to be told, and capturing people in their element. My goal is to create <span class="about__art">art</span> that feels authentic, intentional, and unapologetically original.</p>
+          <ul class="about__beats" aria-label="My approach">
+            <li>Always experimenting.</li>
+            <li>Always creating.</li>
+            <li>Always looking for a new perspective.</li>
+          </ul>
+          <div class="about__actions">
+            <a class="btn btn--dark btn--arrow" href="#book">Book with Kjayy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg></a>
+            <a class="about__social" href="https://www.instagram.com/undrxposur/" target="_blank" rel="noopener" aria-label="Kjayy on Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a class="about__social" href="https://www.tiktok.com/@skrtkjayy" target="_blank" rel="noopener" aria-label="Kjayy on TikTok (opens in a new tab)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.6V9a7.4 7.4 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.2-1.5z"/></svg></a>
+          </div>
+        </div>
+
+        <div class="about__art-col" id="about-art">
+          <span class="about__orb about__orb--lime" aria-hidden="true"></span>
+          <span class="about__orb about__orb--ink" aria-hidden="true"></span>
+          <span class="polaroid polaroid--a" aria-hidden="true"><picture><source type="image/webp" srcset="images/gallery/editorial-yellow-parasol-480.webp"><img src="images/gallery/editorial-yellow-parasol-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async"></picture><span class="polaroid__cap">golden hour &#10022;</span></span>
+          <span class="polaroid polaroid--b" aria-hidden="true"><picture><source type="image/webp" srcset="images/gallery/wedding-black-white-kiss-480.webp"><img src="images/gallery/wedding-black-white-kiss-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async"></picture><span class="polaroid__cap">city hall, 2025</span></span>
+          <div class="vf" aria-hidden="true">
+            <i class="vf__c vf__c--tl"></i><i class="vf__c vf__c--tr"></i><i class="vf__c vf__c--bl"></i><i class="vf__c vf__c--br"></i>
+            <span class="vf__rec"><b></b>REC</span>
+            <span class="vf__batt"><b></b></span>
+            <span class="vf__focus"></span>
+            <span class="vf__read">f/2.8 <em>&middot;</em> 1/250 <em>&middot;</em> ISO 100 <em>&middot;</em> AF-C</span>
+          </div>
+          <svg class="doodle" viewBox="0 0 220 120" aria-hidden="true">
+            <text class="doodle__text" x="4" y="34">that&rsquo;s me!</text>
+            <path class="doodle__line" d="M118 30 C 158 18, 188 34, 192 72 S 176 104, 166 108"/>
+            <path class="doodle__line doodle__head" d="M156 96 L 166 108 L 180 100"/>
+          </svg>
+          <svg class="spark spark--1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg>
+          <svg class="spark spark--2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg>
+          <svg class="spark spark--3" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg>
+          <picture class="about__photo"><source type="image/webp" srcset="images/about/kjayy-480.webp 480w, images/about/kjayy.webp 800w" sizes="(min-width: 1024px) 28rem, 70vw"><img src="images/about/kjayy.png" srcset="images/about/kjayy-480.png 480w, images/about/kjayy.png 800w" sizes="(min-width: 1024px) 28rem, 70vw" alt="Kjayy, the photographer behind Undrxposur, lining up a shot with a telephoto lens" width="800" height="1089" loading="lazy" decoding="async"></picture>
+          <span class="about__sticker" aria-hidden="true">
+            <svg class="about__ring" viewBox="0 0 100 100"><defs><path id="ring-path" d="M50 50 m-40 0 a40 40 0 1 1 80 0 a40 40 0 1 1 -80 0"/></defs><text><textPath href="#ring-path" textLength="250" lengthAdjust="spacing">PHOTOGRAPHER &#10022; CREATIVE MENACE &#10022; STORYTELLER &#10022;</textPath></text></svg>
+            <span class="about__hi">Hi, I&rsquo;m<br>Kjayy</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== REVIEWS ============================== -->
+    <section class="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Kind Words</p>
+          <h2 class="section-title" id="reviews-title">Clients <em>say it best.</em></h2>
+          <p class="section-lede">Real people, real sessions. Here&rsquo;s what they had to say after seeing their gallery.</p>
+        </div>
+      </div>
+
+      <div class="reel" id="reel" aria-hidden="true">
+        <ul class="reel__track" id="reel-track">
+            <li class="reel__card" data-name="Jasmine &amp; Marco" data-session="Wedding" data-quote="Our City Hall photos are everything. She caught moments we didn&rsquo;t even know happened, and every frame looks like a magazine." data-img="wedding-city-hall-couple"><picture><source type="image/webp" srcset="images/gallery/wedding-city-hall-couple-480.webp"><img src="images/gallery/wedding-city-hall-couple-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Jasmine &amp; Marco</span><small>Wedding</small></span></li>
+            <li class="reel__card" data-name="Devon R." data-session="The Signature" data-quote="I came in nervous and left feeling like the main character. My new photos finally look like me." data-img="portrait-green-cap"><picture><source type="image/webp" srcset="images/gallery/portrait-green-cap-480.webp"><img src="images/gallery/portrait-green-cap-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Devon R.</span><small>The Signature</small></span></li>
+            <li class="reel__card" data-name="Kiara T." data-session="The Creative Experience" data-quote="She took my wild idea and made it look even better than the moodboard. Pure art." data-img="editorial-yellow-parasol"><picture><source type="image/webp" srcset="images/gallery/editorial-yellow-parasol-480.webp"><img src="images/gallery/editorial-yellow-parasol-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Kiara T.</span><small>The Creative Experience</small></span></li>
+            <li class="reel__card" data-name="The Alvarez Family" data-session="Family" data-quote="She was so patient with our little one. We cried when the gallery came in, in the best way." data-img="family-first-kisses"><picture><source type="image/webp" srcset="images/gallery/family-first-kisses-480.webp"><img src="images/gallery/family-first-kisses-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>The Alvarez Family</span><small>Family</small></span></li>
+            <li class="reel__card" data-name="Andre M." data-session="The Mini" data-quote="Thirty minutes and I walked away with the best photos I&rsquo;ve ever had. Easy, fun, and fast turnaround." data-img="portrait-stone-wall"><picture><source type="image/webp" srcset="images/gallery/portrait-stone-wall-480.webp"><img src="images/gallery/portrait-stone-wall-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Andre M.</span><small>The Mini</small></span></li>
+            <li class="reel__card" data-name="Isabel G." data-session="Wedding" data-quote="Every detail of my dress, every glance. She made me feel stunning the entire day." data-img="wedding-bridal-staircase"><picture><source type="image/webp" srcset="images/gallery/wedding-bridal-staircase-480.webp"><img src="images/gallery/wedding-bridal-staircase-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Isabel G.</span><small>Wedding</small></span></li>
+            <li class="reel__card" data-name="Nia W." data-session="Editorial" data-quote="The styling direction, the colour, the confidence. I&rsquo;ve never felt so seen in front of a camera." data-img="editorial-chartreuse-knit"><picture><source type="image/webp" srcset="images/gallery/editorial-chartreuse-knit-480.webp"><img src="images/gallery/editorial-chartreuse-knit-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Nia W.</span><small>Editorial</small></span></li>
+            <li class="reel__card" data-name="Marcus J." data-session="Brand session" data-quote="Our launch photos came out clean and bold. Clients ask who shot them every single week." data-img="portrait-rooftop-chair"><picture><source type="image/webp" srcset="images/gallery/portrait-rooftop-chair-480.webp"><img src="images/gallery/portrait-rooftop-chair-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Marcus J.</span><small>Brand session</small></span></li>
+            <li class="reel__card" data-name="Tasha B." data-session="The Signature" data-quote="Golden hour with Kjayy is a whole experience. She knows exactly how to find your light." data-img="editorial-golden-locs"><picture><source type="image/webp" srcset="images/gallery/editorial-golden-locs-480.webp"><img src="images/gallery/editorial-golden-locs-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Tasha B.</span><small>The Signature</small></span></li>
+            <li class="reel__card" data-name="Lena &amp; Chris" data-session="Wedding" data-quote="Timeless. The black and white set hangs in every room of our home now." data-img="wedding-black-white-kiss"><picture><source type="image/webp" srcset="images/gallery/wedding-black-white-kiss-480.webp"><img src="images/gallery/wedding-black-white-kiss-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Lena &amp; Chris</span><small>Wedding</small></span></li>
+            <li class="reel__card" data-name="Jordan P." data-session="The Mini" data-quote="Pulled up with zero plan and she directed every pose. Ten out of ten." data-img="portrait-as-cap"><picture><source type="image/webp" srcset="images/gallery/portrait-as-cap-480.webp"><img src="images/gallery/portrait-as-cap-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Jordan P.</span><small>The Mini</small></span></li>
+            <li class="reel__card" data-name="Kiara T." data-session="Editorial" data-quote="Second shoot with her and somehow even better than the first. She just gets it." data-img="editorial-sunglasses-sky"><picture><source type="image/webp" srcset="images/gallery/editorial-sunglasses-sky-480.webp"><img src="images/gallery/editorial-sunglasses-sky-480.jpg" alt="" width="480" height="720" loading="lazy" decoding="async" draggable="false"></picture><span class="reel__tag"><span>Kiara T.</span><small>Editorial</small></span></li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <div class="reel-quote" id="reel-quote" aria-hidden="true">
+          <div class="reel-quote__stars">★★★★★</div>
+          <p class="reel-quote__text" id="reel-text">&ldquo;Our City Hall photos are everything. She caught moments we didn&rsquo;t even know happened, and every frame looks like a magazine.&rdquo;</p>
+          <div class="reel-quote__by">
+            <span class="reel-quote__face"><img src="images/gallery/wedding-city-hall-couple-480.jpg" alt="" width="480" height="720" id="reel-face"></span>
+            <span><strong id="reel-name">Jasmine &amp; Marco</strong><small id="reel-session">Wedding</small></span>
+          </div>
+        </div>
+        <div class="reel-controls">
+          <button class="reel-btn" type="button" id="reel-prev" aria-label="Previous review"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 6 9 12 15 18"/></svg></button>
+          <button class="ring-pause reel-pause" id="reel-pause" type="button" aria-pressed="false"><span class="ring-pause__icon" aria-hidden="true"></span><span class="ring-pause__label">Pause</span></button>
+          <button class="reel-btn" type="button" id="reel-next" aria-label="Next review"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 6 15 12 9 18"/></svg></button>
+        </div>
+        <ul class="visually-hidden" aria-label="Client reviews">
+          <li><blockquote><p>&ldquo;Our City Hall photos are everything. She caught moments we didn&rsquo;t even know happened, and every frame looks like a magazine.&rdquo;</p></blockquote><p>Jasmine &amp; Marco, Wedding. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;I came in nervous and left feeling like the main character. My new photos finally look like me.&rdquo;</p></blockquote><p>Devon R., The Signature. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;She took my wild idea and made it look even better than the moodboard. Pure art.&rdquo;</p></blockquote><p>Kiara T., The Creative Experience. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;She was so patient with our little one. We cried when the gallery came in, in the best way.&rdquo;</p></blockquote><p>The Alvarez Family, Family. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;Thirty minutes and I walked away with the best photos I&rsquo;ve ever had. Easy, fun, and fast turnaround.&rdquo;</p></blockquote><p>Andre M., The Mini. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;Every detail of my dress, every glance. She made me feel stunning the entire day.&rdquo;</p></blockquote><p>Isabel G., Wedding. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;The styling direction, the colour, the confidence. I&rsquo;ve never felt so seen in front of a camera.&rdquo;</p></blockquote><p>Nia W., Editorial. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;Our launch photos came out clean and bold. Clients ask who shot them every single week.&rdquo;</p></blockquote><p>Marcus J., Brand session. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;Golden hour with Kjayy is a whole experience. She knows exactly how to find your light.&rdquo;</p></blockquote><p>Tasha B., The Signature. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;Timeless. The black and white set hangs in every room of our home now.&rdquo;</p></blockquote><p>Lena &amp; Chris, Wedding. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;Pulled up with zero plan and she directed every pose. Ten out of ten.&rdquo;</p></blockquote><p>Jordan P., The Mini. 5 out of 5 stars.</p></li>
+          <li><blockquote><p>&ldquo;Second shoot with her and somehow even better than the first. She just gets it.&rdquo;</p></blockquote><p>Kiara T., Editorial. 5 out of 5 stars.</p></li>
+        </ul>
+        <p class="reviews__note">Sample reviews (placeholder)</p>
+      </div>
+    </section>
+
+    <!-- ============================== CONTACT ============================== -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <!-- Scroll-driven camera (replaces the aperture rings): drifts, turns and focuses as you scroll. Decorative. -->
+      <div class="bg-cam bg-cam--left" aria-hidden="true"><picture><source type="image/webp" srcset="images/about/camera-tele-640.webp 640w, images/about/camera-tele.webp 1200w" sizes="(min-width: 1024px) 46vw, 90vw"><img src="images/about/camera-tele.png" srcset="images/about/camera-tele-640.png 640w, images/about/camera-tele.png 1200w" sizes="(min-width: 1024px) 46vw, 90vw" alt="" width="1200" height="757" loading="lazy" decoding="async"></picture></div>
+      <div class="container contact__inner">
+        <div class="contact__copy">
+          <p class="eyebrow">Get in Touch</p>
+          <h2 class="section-title" id="contact-title">Got a question? <em>Ask away.</em></h2>
+          <p class="section-lede">Not sure which session fits, what to wear, or whether your idea is possible? Send me a question and I&rsquo;ll reply within one business day.</p>
+
+          <div class="book-callout">
+            <span class="book-callout__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2.5"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="3" x2="8" y2="7"/><line x1="16" y1="3" x2="16" y2="7"/><path d="m9 15 2 2 4-4"/></svg></span>
+            <div>
+              <p class="book-callout__title">Ready to book?</p>
+              <p class="book-callout__text">Sessions are reserved through the booking calendar, where you pick your date and pay the deposit. This form is for questions only.</p>
+              <a class="book-callout__link" href="#book">Go to booking <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg></a>
+            </div>
+          </div>
+
+          <ul class="reach" aria-label="Other ways to reach Kjayy">
+            <li><a class="reach__item" href="mailto:hello@undrxposur.com"><span class="reach__icon reach__icon--mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><polyline points="3.5 6.5 12 13 20.5 6.5"/></svg></span><span class="reach__text"><small>Email</small>hello@undrxposur.com</span><svg class="reach__go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="8 7 17 7 17 16"/></svg></a></li>
+            <li><a class="reach__item" href="https://www.instagram.com/undrxposur/" target="_blank" rel="noopener"><span class="reach__icon reach__icon--ig"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></span><span class="reach__text"><small>Instagram</small>@undrxposur<span class="visually-hidden"> (opens in a new tab)</span></span><svg class="reach__go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="8 7 17 7 17 16"/></svg></a></li>
+            <li><a class="reach__item" href="https://www.tiktok.com/@skrtkjayy" target="_blank" rel="noopener"><span class="reach__icon reach__icon--tt"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.6V9a7.4 7.4 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.2-1.5z"/></svg></span><span class="reach__text"><small>TikTok</small>@skrtkjayy<span class="visually-hidden"> (opens in a new tab)</span></span><svg class="reach__go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="8 7 17 7 17 16"/></svg></a></li>
+          </ul>
+        </div>
+        <form class="form" action="#" method="post" novalidate data-demo-form aria-labelledby="form-title">
+          <div class="form__head">
+            <p class="form__title" id="form-title">Ask a question</p>
+            <p class="form__sub">Questions only. To reserve a date, use <a href="#book">booking</a>.</p>
+          </div>
+          <div class="form__row">
+            <label class="field"><span>Name</span><input type="text" name="name" autocomplete="name" required></label>
+            <label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" required></label>
+          </div>
+          <label class="field"><span>What&rsquo;s it about?</span>
+            <select name="topic"><option>Sessions &amp; pricing</option><option>Availability</option><option>Styling &amp; what to wear</option><option>Weddings &amp; events</option><option>Something else</option></select>
+          </label>
+          <label class="field"><span>Your question</span><textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn--dark btn--arrow" type="submit">Send question <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg></button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <a class="to-top" id="to-top" href="#top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="6 11 12 5 18 11"/></svg></a>
+
+  <!-- Lightbox (opened from the portfolio) -->
+  <div class="lightbox" id="lightbox" data-lenis-prevent role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lightbox__close" type="button" aria-label="Close viewer"><span aria-hidden="true">&times;</span></button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous photo"><span aria-hidden="true">&lsaquo;</span></button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" src="" alt="">
+      <figcaption class="lightbox__cap"><span class="lightbox__title"></span><span class="lightbox__place"></span><span class="lightbox__count"></span></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next photo"><span aria-hidden="true">&rsaquo;</span></button>
+  </div>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <picture class="footer__logo">
+        <source type="image/webp" srcset="images/brand/undrxposur-logo-smoke.webp">
+        <img src="images/brand/undrxposur-logo-smoke.png" alt="Undrxposur" width="700" height="725" loading="lazy" decoding="async">
+      </picture>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#work">Work</a><a href="#services">Services</a><a href="#book">Book</a><a href="#about">About</a><a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">&copy; 2026 Undrxposur. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
