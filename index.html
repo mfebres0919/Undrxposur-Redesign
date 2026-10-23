@@ -27,7 +27,7 @@
   <!-- ============================== HEADER ============================== -->
   <header class="header" id="header">
     <div class="container header__inner">
-      <a class="logo" href="#top" aria-label="Undrxposur, home">
+      <a class="logo" href="#top">
         <picture class="logo__dark">
           <source type="image/webp" srcset="images/brand/undrxposur-wordmark-ink.webp">
           <img src="images/brand/undrxposur-wordmark-ink.png" alt="" width="900" height="191">
@@ -36,7 +36,7 @@
           <source type="image/webp" srcset="images/brand/undrxposur-wordmark-white.webp">
           <img src="images/brand/undrxposur-wordmark-white.png" alt="" width="900" height="191">
         </picture>
-      </a>
+      <span class="visually-hidden">Undrxposur, home</span></a>
 
       <nav class="nav" id="nav" aria-label="Primary" data-lenis-prevent>
         <ul class="nav__list">
@@ -50,9 +50,9 @@
         <div class="nav__foot">
           <p class="nav__foot-label">Follow along</p>
           <div class="nav__social">
-            <a href="https://www.instagram.com/undrxposur/" target="_blank" rel="noopener" aria-label="Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
-            <a href="https://www.tiktok.com/@skrtkjayy" target="_blank" rel="noopener" aria-label="TikTok (opens in a new tab)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.6V9a7.4 7.4 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.2-1.5z"/></svg></a>
-            <a href="mailto:hello@undrxposur.com" aria-label="Email hello@undrxposur.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><polyline points="3.5 6.5 12 13 20.5 6.5"/></svg></a>
+            <a href="https://www.instagram.com/undrxposur/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span class="visually-hidden">Instagram (opens in a new tab)</span></a>
+            <a href="https://www.tiktok.com/@skrtkjayy" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.6V9a7.4 7.4 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.2-1.5z"/></svg><span class="visually-hidden">TikTok (opens in a new tab)</span></a>
+            <a href="mailto:hello@undrxposur.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><polyline points="3.5 6.5 12 13 20.5 6.5"/></svg><span class="visually-hidden">Email hello@undrxposur.com</span></a>
           </div>
         </div>
       </nav>
@@ -388,9 +388,9 @@
             <fieldset class="step">
               <legend class="step__title"><span class="step__num">1</span>Choose a session</legend>
               <div class="choices" id="session-choices">
-                <label class="choice"><input type="radio" name="session" value="The Mini" data-price="50" data-img="portrait-stone-wall" checked><span class="choice__media"><picture><source type="image/webp" srcset="images/gallery/portrait-stone-wall-480.webp"><img src="images/gallery/portrait-stone-wall-480.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></picture></span><span class="choice__body"><span class="choice__name">The Mini</span><span class="choice__meta">30–45 min</span><span class="choice__price">$50</span></span><span class="choice__check" aria-hidden="true"></span></label>
-                <label class="choice"><input type="radio" name="session" value="The Signature" data-price="150" data-img="portrait-studio-stool"><span class="choice__media"><picture><source type="image/webp" srcset="images/gallery/portrait-studio-stool-480.webp"><img src="images/gallery/portrait-studio-stool-480.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></picture></span><span class="choice__body"><span class="choice__name">The Signature</span><span class="choice__meta">45–60 min</span><span class="choice__price">$150</span></span><span class="choice__check" aria-hidden="true"></span></label>
-                <label class="choice"><input type="radio" name="session" value="The Creative Experience" data-price="200" data-img="editorial-yellow-parasol" data-plus="1"><span class="choice__media"><picture><source type="image/webp" srcset="images/gallery/editorial-yellow-parasol-480.webp"><img src="images/gallery/editorial-yellow-parasol-480.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></picture></span><span class="choice__body"><span class="choice__name">The Creative Experience</span><span class="choice__meta">60–90 min</span><span class="choice__price">from $200</span></span><span class="choice__check" aria-hidden="true"></span></label>
+                <label class="choice"><input type="radio" name="session" value="The Mini" aria-label="The Mini" data-price="50" data-img="portrait-stone-wall" checked><span class="choice__media"><picture><source type="image/webp" srcset="images/gallery/portrait-stone-wall-480.webp"><img src="images/gallery/portrait-stone-wall-480.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></picture></span><span class="choice__body"><span class="choice__name">The Mini</span><span class="choice__meta">30–45 min</span><span class="choice__price">$50</span></span><span class="choice__check" aria-hidden="true"></span></label>
+                <label class="choice"><input type="radio" name="session" value="The Signature" aria-label="The Signature" data-price="150" data-img="portrait-studio-stool"><span class="choice__media"><picture><source type="image/webp" srcset="images/gallery/portrait-studio-stool-480.webp"><img src="images/gallery/portrait-studio-stool-480.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></picture></span><span class="choice__body"><span class="choice__name">The Signature</span><span class="choice__meta">45–60 min</span><span class="choice__price">$150</span></span><span class="choice__check" aria-hidden="true"></span></label>
+                <label class="choice"><input type="radio" name="session" value="The Creative Experience" aria-label="The Creative Experience" data-price="200" data-img="editorial-yellow-parasol" data-plus="1"><span class="choice__media"><picture><source type="image/webp" srcset="images/gallery/editorial-yellow-parasol-480.webp"><img src="images/gallery/editorial-yellow-parasol-480.jpg" alt="" width="480" height="600" loading="lazy" decoding="async"></picture></span><span class="choice__body"><span class="choice__name">The Creative Experience</span><span class="choice__meta">60–90 min</span><span class="choice__price">from $200</span></span><span class="choice__check" aria-hidden="true"></span></label>
               </div>
             </fieldset>
 
@@ -411,11 +411,11 @@
             <fieldset class="step step--time">
               <legend class="step__title"><span class="step__num">3</span>Pick a time</legend>
               <div class="times" id="times">
-                <label class="time"><input type="radio" name="time" value="9:00 AM"><span>9:00 AM</span></label>
-                <label class="time"><input type="radio" name="time" value="11:30 AM" checked><span>11:30 AM</span></label>
-                <label class="time"><input type="radio" name="time" value="2:00 PM"><span>2:00 PM</span></label>
-                <label class="time"><input type="radio" name="time" value="4:30 PM"><span>4:30 PM</span></label>
-                <label class="time"><input type="radio" name="time" value="Golden hour"><span>Golden hour <small>~6:15 PM</small></span></label>
+                <label class="time"><input type="radio" name="time" value="9:00 AM" aria-label="9:00 AM"><span>9:00 AM</span></label>
+                <label class="time"><input type="radio" name="time" value="11:30 AM" aria-label="11:30 AM" checked><span>11:30 AM</span></label>
+                <label class="time"><input type="radio" name="time" value="2:00 PM" aria-label="2:00 PM"><span>2:00 PM</span></label>
+                <label class="time"><input type="radio" name="time" value="4:30 PM" aria-label="4:30 PM"><span>4:30 PM</span></label>
+                <label class="time"><input type="radio" name="time" value="Golden hour" aria-label="Golden hour"><span>Golden hour <small>~6:15 PM</small></span></label>
               </div>
               <p class="times__note">All times Eastern. Golden hour shifts with the season.</p>
             </fieldset>
@@ -439,10 +439,10 @@
             <div class="pay">
               <p class="pay__title">Pay deposit</p>
               <div class="pay__methods" aria-hidden="true"><span>Card</span><span>Apple&nbsp;Pay</span><span>Klarna</span></div>
-              <label class="pay__field"><span class="visually-hidden">Card number</span><input type="text" placeholder="Card number" inputmode="numeric" autocomplete="off" disabled></label>
+              <label class="pay__field"><span class="visually-hidden">Card number</span><input type="text" aria-label="Card number" placeholder="Card number" inputmode="numeric" autocomplete="off" disabled></label>
               <div class="pay__row">
-                <label class="pay__field"><span class="visually-hidden">Expiry</span><input type="text" placeholder="MM / YY" autocomplete="off" disabled></label>
-                <label class="pay__field"><span class="visually-hidden">CVC</span><input type="text" placeholder="CVC" autocomplete="off" disabled></label>
+                <label class="pay__field"><span class="visually-hidden">Expiry</span><input type="text" aria-label="Expiry" placeholder="MM / YY" autocomplete="off" disabled></label>
+                <label class="pay__field"><span class="visually-hidden">CVC</span><input type="text" aria-label="CVC" placeholder="CVC" autocomplete="off" disabled></label>
               </div>
               <button class="btn btn--lime btn--block" type="button" id="reserve">Pay $25 &amp; Reserve</button>
               <p class="pay__secure"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>Secure checkout · Demo only</p>
@@ -469,8 +469,8 @@
           </ul>
           <div class="about__actions">
             <a class="btn btn--dark btn--arrow" href="#book">Book with Kjayy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="13 6 19 12 13 18"/></svg></a>
-            <a class="about__social" href="https://www.instagram.com/undrxposur/" target="_blank" rel="noopener" aria-label="Kjayy on Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
-            <a class="about__social" href="https://www.tiktok.com/@skrtkjayy" target="_blank" rel="noopener" aria-label="Kjayy on TikTok (opens in a new tab)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.6V9a7.4 7.4 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.2-1.5z"/></svg></a>
+            <a class="about__social" href="https://www.instagram.com/undrxposur/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span class="visually-hidden">Kjayy on Instagram (opens in a new tab)</span></a>
+            <a class="about__social" href="https://www.tiktok.com/@skrtkjayy" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.6V9a7.4 7.4 0 0 0 4.3 1.4V7.3a4.3 4.3 0 0 1-3.2-1.5z"/></svg><span class="visually-hidden">Kjayy on TikTok (opens in a new tab)</span></a>
           </div>
         </div>
 
@@ -494,7 +494,7 @@
           <svg class="spark spark--1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg>
           <svg class="spark spark--2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg>
           <svg class="spark spark--3" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0c1 7 5 11 12 12-7 1-11 5-12 12-1-7-5-11-12-12 7-1 11-5 12-12z"/></svg>
-          <picture class="about__photo"><source type="image/webp" srcset="images/about/kjayy-480.webp 480w, images/about/kjayy.webp 800w" sizes="(min-width: 1024px) 28rem, 70vw"><img src="images/about/kjayy.png" srcset="images/about/kjayy-480.png 480w, images/about/kjayy.png 800w" sizes="(min-width: 1024px) 28rem, 70vw" alt="Kjayy, the photographer behind Undrxposur, lining up a shot with a telephoto lens" width="800" height="1089" loading="lazy" decoding="async"></picture>
+          <picture class="about__photo"><source type="image/webp" srcset="images/about/kjayy-480.webp 480w, images/about/kjayy.webp 800w" sizes="(min-width: 1024px) 28rem, 70vw"><img src="images/about/kjayy.png" srcset="images/about/kjayy-480.png 480w, images/about/kjayy.png 800w" sizes="(min-width: 1024px) 28rem, 70vw" alt="Kjayy lining up a shot with her camera" width="800" height="1089" loading="lazy" decoding="async"></picture>
           <span class="about__sticker" aria-hidden="true">
             <svg class="about__ring" viewBox="0 0 100 100"><defs><path id="ring-path" d="M50 50 m-40 0 a40 40 0 1 1 80 0 a40 40 0 1 1 -80 0"/></defs><text><textPath href="#ring-path" textLength="250" lengthAdjust="spacing">PHOTOGRAPHER &#10022; CREATIVE MENACE &#10022; STORYTELLER &#10022;</textPath></text></svg>
             <span class="about__hi">Hi, I&rsquo;m<br>Kjayy</span>
@@ -593,8 +593,8 @@
             <p class="form__sub">Questions only. To reserve a date, use <a href="#book">booking</a>.</p>
           </div>
           <div class="form__row">
-            <label class="field"><span>Name</span><input type="text" name="name" autocomplete="name" required></label>
-            <label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" required></label>
+            <label class="field"><span>Name</span><input type="text" name="name" aria-label="Name" autocomplete="name" required></label>
+            <label class="field"><span>Email</span><input type="email" name="email" aria-label="Email" autocomplete="email" required></label>
           </div>
           <label class="field"><span>What&rsquo;s it about?</span>
             <select name="topic"><option>Sessions &amp; pricing</option><option>Availability</option><option>Styling &amp; what to wear</option><option>Weddings &amp; events</option><option>Something else</option></select>
@@ -608,7 +608,7 @@
 
   </main>
 
-  <a class="to-top" id="to-top" href="#top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="6 11 12 5 18 11"/></svg></a>
+  <a class="to-top" id="to-top" href="#top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="6 11 12 5 18 11"/></svg><span class="visually-hidden">Back to top</span></a>
 
   <!-- Lightbox (opened from the portfolio) -->
   <div class="lightbox" id="lightbox" data-lenis-prevent role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
