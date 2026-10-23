@@ -413,6 +413,7 @@
 /* ---------- Scroll fade-ins: every block fades up slowly (2s) the first time it scrolls into view ---------- */
 (function () {
   if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (document.documentElement.classList.contains('snapshot')) return;
   const sel = [
     '.ribbon', '.section-head > *', '.filters', '.work', '.svc',
     '.step', '.summary', '.about__copy > *', '.about__art-col',

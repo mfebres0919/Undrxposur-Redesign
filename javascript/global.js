@@ -3,6 +3,10 @@
    Header: shadow once you scroll; phone menu open/close.
    ========================================================================== */
 
+/* Snapshot mode (add ?snapshot to the URL): shows every section in its finished state,
+   no scroll effects, so full-page screenshot tools capture the whole site. */
+if (/[?&]snapshot\b/.test(window.location.search)) document.documentElement.classList.add('snapshot');
+
 (function () {
   const header = document.getElementById('header');
   if (!header) return;
